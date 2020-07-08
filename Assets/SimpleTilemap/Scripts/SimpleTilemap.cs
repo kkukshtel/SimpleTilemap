@@ -154,6 +154,7 @@ namespace SimpleTilemap
 
 					// assing tilemap sprite to tile
 					//note that this currently uses a defualt value, but could be easily modified to accept a preconfigued value
+					defaultTilemapIndex = Random.Range(0,9);
 					AssignSpriteToTile(new Tile(x,y), defaultTilemapIndex, false);
 				}
 			}

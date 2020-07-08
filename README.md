@@ -1,20 +1,25 @@
 # SimpleTilemap v1.0
 
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/simpletilemapstand.gif" alt="Import Settings" width="400">
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/simpletilemap.gif" alt="Import Settings" width="400">
-
-Developed for [@isotacticsgame](http://twitter.com/isotacticsgame)
-
 SimpleTilemap is a totally free library for generating tilemaps in Unity at runtime. 
 It provides users with a single script that, when used with a tilemap sprite, will generate a custom textured mesh with tilemap-indexed tiles, using a single GameObject. 
 Its intended use is for 2D pixelart games with orthographic cameras, and has not been tested or verified with 3D assets.
+
+
+![](./images/simpletilemapstand.gif)
+![](./images/simpletilemap.gif)
+
+Developed for [@cantatagame](https://www.cantata-game.com)
+
+![](./images/3.png)
 
 ## Usage
 
 All functionality is contained in the single SimpleTilemap script, with an example of full functionality in the two included example Unity scenes and in the APIDemo.cs script.
 The biggest thing to note with this library is that this script assumes certain import settings on tilemap sprties to work properly, which you can see below.
 
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/import-settings.png" alt="Import Settings" width="400">
+
+![](./images/import-settings.png)
+
 
 The big thing to note is that this script assumes that the texture is set to **Sprite** with a **one pixel per unit** PPU setting, **Point filter mode**, and no compression.
 "Sprite Mode" is also set to "Single", **even for tilemaps**. I recgonize this is somewhat of a limitation, but I also know this is somewhat standard practice
@@ -24,7 +29,7 @@ This is also why you need to fill in the tilemap parameters on the script. For m
 
 ## Component parameters
 
-<img src="https://dl.dropboxusercontent.com/u/11960643/simpletilemap/final-component.png" alt="Component Parameters" width="400">
+![](./images/final-component.png)
 
 The component is relatively barebones, but displays core parameters to get the script working. In order:
 
@@ -51,7 +56,7 @@ This should normally be your PPU import setting * dimension in pixels of your ti
 
 ## Where to go from here
 
-I'd love to hear feedback (issues/pull requests/DMs/etc.) on this library! I can be reached on Twitter through [@kkukshtel](http://twitter.com/kkukshtel) or through my game [@isotacticsgame](http://twitter.com/isotacticsgame)). The intention is to keep the library as barebones as possible, so if you can think of features almost everyone would want, let me know, or submit a pull request.
+I'd love to hear feedback (issues/pull requests/DMs/etc.) on this library! I can be reached on Twitter through [@kkukshtel](http://twitter.com/kkukshtel) or through my game [@cantatagame](http://twitter.com/cantatagame)). The intention is to keep the library as barebones as possible, so if you can think of features almost everyone would want, let me know, or submit a pull request.
 
 ## License
 
